@@ -1,0 +1,16 @@
+Target,Model,Train_R2,Test_R2,RMSE,Filename
+Sales,Linear Regression,0.8696213865476976,0.9214974957689237,194.21373562553882,models/linear_regression_sales.pkl
+Sales,Random Forest,0.9653342237560006,0.9314151052239241,181.53167907546705,models/random_forest_sales.pkl
+Sales,Gradient Boosting,0.9996375837356016,0.9486600934250551,157.0600470998465,models/gradient_boosting_sales.pkl
+Sales,LightGBM,0.8454591094049122,0.9178459494695561,198.67932540908035,models/lightgbm_sales.pkl
+Sales,Voting Regressor,0.9752437475079666,0.9540692859576495,148.55585897730322,models/voting_regressor_sales.pkl
+Profit,Linear Regression,0.3764039399357345,0.032498591334854554,87.61221644429789,models/linear_regression_profit.pkl
+Profit,Random Forest,0.8497297793787851,0.5051257990715508,62.65940565665429,models/random_forest_profit.pkl
+Profit,Gradient Boosting,0.9790331964113813,0.6754700064838896,50.74184857499385,models/gradient_boosting_profit.pkl
+Profit,LightGBM,0.7280202759971897,0.48661418858281336,63.820587135589044,models/lightgbm_profit.pkl
+Profit,Voting Regressor,0.8672482875647035,0.4868930357077782,63.803252604705236,models/voting_regressor_profit.pkl
+Quantity,Linear Regression,0.7676225688391312,0.7763368302389425,197.57127162209474,models/linear_regression_quantity.pkl
+Quantity,Random Forest,0.9521716127772688,0.8935883600351228,136.276548494259,models/random_forest_quantity.pkl
+Quantity,Gradient Boosting,0.9305281499006987,0.9021304730768679,130.69239054999366,models/gradient_boosting_quantity.pkl
+Quantity,LightGBM,0.9155687187780441,0.8953638773865322,135.13485389528594,models/lightgbm_quantity.pkl
+Quantity,Voting Regressor,0.9052550364924205,0.8806862880812505,144.30179583147304,models/voting_regressor_quantity.pkl
